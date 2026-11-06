@@ -1,0 +1,3 @@
+sbt package
+/opt/spark/bin/spark-submit --class ClassifierCompare \
+ --master local[*] target/scala-2.12/hw1-2_2.12-1.0.jar
