@@ -1,0 +1,3 @@
+sbt package
+/opt/spark/bin/spark-submit --class LinearRegressionSweep \
+ --master local[*] target/scala-2.12/hw1-1_2.12-1.0.jar
